@@ -20,7 +20,7 @@ Includes sound effects, score tracking, responsive design, and animated win high
 
 ## 🚀 Live Demo
 
-👉([https://your-username.github.io/tic-tac-toe/](https://saroj-2004.github.io/Tic-tac-toe-game/))  
+👉([Click here to play tic-tac-toe game/](https://saroj-2004.github.io/Tic-tac-toe-game/))  
 
 
 ---

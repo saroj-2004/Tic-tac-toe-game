@@ -3,7 +3,8 @@
 A simple and modern **Tic Tac Toe** game built with **HTML**, **CSS**, and **JavaScript**.  
 Includes sound effects, score tracking, responsive design, and animated win highlights!
 
-![Preview](preview.png) <!-- Optional: Replace with your screenshot -->
+![Preview](![Screenshot 2025-06-16 001348](https://github.com/user-attachments/assets/dccb39a3-c599-4d3a-a147-ca62848fb8db)
+) <!-- Optional: Replace with your screenshot -->
 
 ---
 

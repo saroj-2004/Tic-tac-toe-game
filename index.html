@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Retro Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tic Tac Toe</h1>
+
+<div class="menu">
+  <button onclick="showSection('game')">Game</button>
+  <button onclick="showSection('about')">About Us</button>
+  <button onclick="showSection('privacy')">Privacy Policy</button>
+  <button onclick="showSection('terms')">Terms of Service</button>
+  <button onclick="showSection('contact')">Contact Us</button>
+</div>
+
+<div class="page-section" id="game">
+  <strong>Let’s Play!</strong><br>
+  Welcome to Tic Tac Toe by Saroj Rawal – a modern take on the classic two-player game! Take turns placing Xs and Os on the board. First one to align three in a row wins. Challenge your friends and enjoy!
+</div>
+
+<div class="page-section" id="about">
+  <strong>About the Developer</strong><br>
+  Hi! I'm <strong>Saroj Rawal</strong>, a Computer Engineering student at Pulchowk Campus, Nepal. I love building tech projects that blend creativity with code. Whether it’s web development, machine learning, or game design, I’m always exploring new ideas and turning them into fun, functional experiences like this one. This Tic Tac Toe game is a simple project to share joy, learning, and some nostalgic fun through clean design and smooth functionality.
+</div>
+
+<div class="page-section" id="privacy">
+  <strong>Privacy Policy</strong><br>
+  Your privacy is important. This game runs 100% in your browser and doesn’t collect or store any personal information. No cookies, no trackers, no data collection — just a clean and safe gaming experience.
+</div>
+
+<div class="page-section" id="terms">
+  <strong>Terms of Use</strong><br>
+  This game is created for educational and entertainment purposes only. Play responsibly and enjoy with friends. No warranties or guarantees are provided. Use it freely, learn from it, and share the fun!
+</div>
+
+<div class="page-section" id="contact">
+  <strong>Contact Me</strong><br>
+  Have feedback or just want to connect? You can reach me at <a href="rawalsaroj206@gmail.com">rawalsaroj206@gmail.com</a>. I’d love to hear from you — especially if you're into tech, games, or collaboration!
+</div>
+
+
+
+    <p id="status">Player X's turn</p>
+
+    <div class="scoreboard">
+    <span>Player X: <span id="scoreX">0</span></span>
+    <span>Player O: <span id="scoreO">0</span></span>
+     </div>
+
+
+    <div class="board">
+      <div class="cell" data-index="0"></div>
+      <div class="cell" data-index="1"></div>
+      <div class="cell" data-index="2"></div>
+      <div class="cell" data-index="3"></div>
+      <div class="cell" data-index="4"></div>
+      <div class="cell" data-index="5"></div>
+      <div class="cell" data-index="6"></div>
+      <div class="cell" data-index="7"></div>
+      <div class="cell" data-index="8"></div>
+    </div>
+
+    <button id="reset">RESET GAME</button>
+
+    <footer>© By Saroj Rawal. All Rights Reserved.</footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

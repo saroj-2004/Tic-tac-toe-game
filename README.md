@@ -20,19 +20,7 @@ Includes sound effects, score tracking, responsive design, and animated win high
 
 ## 🚀 Live Demo
 
-👉 [Play it on GitHub Pages]([https://your-username.github.io/tic-tac-toe/](https://saroj-2004.github.io/Tic-tac-toe-game/))  
-*(Replace the link with your GitHub Pages URL)*
+👉([https://your-username.github.io/tic-tac-toe/](https://saroj-2004.github.io/Tic-tac-toe-game/))  
+
 
 ---
-
-## 📂 Folder Structure
-
-tic-tac-toe/
-├── index.html
-├── style.css
-├── script.js
-├── sounds/
-│ ├── move.mp3
-│ ├── win.mp3
-│ └── draw.mp3
-└── README.md
